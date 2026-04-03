@@ -1,0 +1,13 @@
+# Ignora todos os arquivos .log
+*.opt
+*.frm
+*.ibd
+
+# Environment Variables (SEGURANÇA)
+.env
+.env.local
+.env.*.local
+
+# Ignora a pasta 'armazenamento'
+armazenamento/
+.vscode

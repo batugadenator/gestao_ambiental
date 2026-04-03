@@ -1,0 +1,180 @@
+.nav-link,
+.navbar-brand {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #a3da22;
+}
+
+.dropdown-menu {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.dropdown-menu.show {
+    transform: translateY(0);
+    opacity: 1;
+    border-bottom: 5px solid #a3da22;
+}
+
+.dropdown-item.selected {
+    background-color: #343a40;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 98vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.btn{
+    align-self: right !important;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.tabela td {
+    border: 1px solid #212529; 
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela thead th {
+    background-color: #212529; 
+    border: 1px solid #212529; 
+    text-align: center;
+    color: white; 
+}
+
+.tabela tbody tr:hover td {
+    background: lightgrey; 
+    color: black; 
+}
+
+.registros {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #212529; 
+    color: #f8f9fa;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.registros td {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #212529;
+    border-bottom: 5px solid #a3da22;
+}
+ 
+.dataTables_paginate .paginate_button {
+    margin: 10px 0px;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.page-link {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.dataTables_length select {
+    height: 40px;
+    width: 85px;
+
+}
+
+.dataTables_filter {
+    float: right;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.nav>li>a:not(.active):focus,
+.nav>li>a:not(.active):hover {
+    text-decoration: underline;
+    background-color: lightgray !important;
+}
+
+.form-control {
+    height: 40px
+}
+
+.form-select {
+    height: 40px
+}
+
+#atividade {
+    height: auto; 
+    min-height: 50px;
+}
+#evicastanheira,
+#evicastanheiraV,
+#eviimbauba,
+#eviimbaubaV,
+#evipaubrasil,
+#evipaubrasilV,
+#observacao,
+#observacaoV {
+    height: auto; 
+    min-height: 75px;
+}
+
+.card-container {
+    border: 2px solid #212529;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    transform: scale(0.9);
+    transform-origin: center;
+}
+
+.info {
+    margin: 5px 0;
+    line-height: 0.8;
+    text-align: justify;
+}
+
+.legenda {
+    color: white !important;
+    background-color: #212529 !important;
+}
+
+.legenda-pequena {
+    font-size: 13px !important;
+}
+
+.remover-botao{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
